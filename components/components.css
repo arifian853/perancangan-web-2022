@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#3A3238;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+    margin: 12px;
+    padding: 25px;
+    color: #3A3238;
+    border-radius: 12px;
+    background-color: #A9DEF9;
+}
+
+.comp-img {
+    width: 600px;
+    height: auto;
+    border-radius: 22px;
+}
+
+.btn{
+    color :#A9DEF9;
+}
+
+
+@media screen and (max-width: 768px) {
+    body, html {
+        scroll-behavior: smooth;
+        scroll-snap-type: none;
+        overflow-x: hidden;
+    }
+    .comp-img {
+        width: 200px;
+        height: auto;
+        border-radius: 7px;
+    }
+}

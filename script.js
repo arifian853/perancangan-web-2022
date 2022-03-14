@@ -1,0 +1,1 @@
+alert("Lebih baik dibuka di perangkat PC");
